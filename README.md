@@ -33,3 +33,35 @@ Assignment Period, Default: 30 Sec <br>
 Assignment Algorithm, Default: Fair (based on shortest pick up time) <br>
 Dataset: Files can be added to datasets/. Datasets can be downloaded from https://www1.nyc.gov/site/tlc/about/tlc-trip-record-data.page. <br>
  
+# Exexcuting the project
+After changing the params you can run the simulation and generate results. To run, the main class is Main and the project can be run with mvn as follows: <br>
+
+mvn exec:java -Dexec.mainClass="Main" <br>
+
+<b>Example Output</b> <br>
+
+running time: 257
+
+***Simulation environment***
+JSON map file: maps/manhattan-map.json
+Resource dataset file: datasets/may-17.csv
+Bounding polygon KML file: maps/manhattan-boundary.kml
+Number of agents: 5000
+Number of resources: 326612
+Resource Maximum Life Time: 600 seconds
+Agent class: UserExamples.AgentRandomDestination
+
+***Statistics***
+Algorithm: TOTAL_FARE Time: 30 
+Total Fare earned from allocation: 4126118.7699883184 
+Number of Pools processed: 2755 
+average agent search time: 678 seconds 
+average resource wait time: 225 seconds 
+resource expiration percentage: 6%
+
+average agent cruise time: 415 seconds 
+average agent approach time: 227 seconds 
+average resource trip time: 947 seconds 
+total number of assignments: 270965
+
+
