@@ -40,28 +40,27 @@ mvn exec:java -Dexec.mainClass="Main" <br>
 
 <b>Example Output</b> <br>
 
-running time: 257
+running time: 257  <br>
 
-***Simulation environment***
-JSON map file: maps/manhattan-map.json
-Resource dataset file: datasets/may-17.csv
-Bounding polygon KML file: maps/manhattan-boundary.kml
-Number of agents: 5000
-Number of resources: 326612
-Resource Maximum Life Time: 600 seconds
-Agent class: UserExamples.AgentRandomDestination
+***Simulation environment*** <br>
+JSON map file: maps/manhattan-map.json <br>
+Resource dataset file: datasets/may-17.csv <br>
+Bounding polygon KML file: maps/manhattan-boundary.kml <br>
+Number of agents: 5000 <br>
+Number of resources: 326612 <br>
+Resource Maximum Life Time: 600 seconds <br>
+Agent class: UserExamples.AgentRandomDestination <br>
 
-***Statistics***
-Algorithm: TOTAL_FARE Time: 30 
-Total Fare earned from allocation: 4126118.7699883184 
-Number of Pools processed: 2755 
-average agent search time: 678 seconds 
-average resource wait time: 225 seconds 
-resource expiration percentage: 6%
+***Statistics*** <br>
+Total Fare earned from allocation: 4126118.7699883184  <br>
+Number of Pools processed: 2755  <br>
+average agent search time: 678 seconds  <br>
+average resource wait time: 225 seconds  <br>
+resource expiration percentage: 6% <br>
 
-average agent cruise time: 415 seconds 
-average agent approach time: 227 seconds 
-average resource trip time: 947 seconds 
-total number of assignments: 270965
+average agent cruise time: 415 seconds  <br>
+average agent approach time: 227 seconds  <br>
+average resource trip time: 947 seconds  <br>
+total number of assignments: 270965 <br>
 
 
