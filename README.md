@@ -23,12 +23,13 @@ https://www.jetbrains.com/help/idea/maven-support.html#maven_import_project_star
 
 # Configurable Params
 
-After downloading the project, you can change parameters on which you want to run the simulation. The <b>config.properties</b> file is present inside the etc/ folder. 
+After downloading the project, you can change parameters on which you want to run the simulation. The <b>config.properties</b> file is present inside the etc/ folder. <br>
 
-List of Configurable params:
+List of Configurable params: <br>
 
-Number of Agents, Default: 5000
-Resource Expiration Time, Default: 10 Mins
-Assignment Period, Default: 30 Sec
-Assignment Algorithm, Default: Fair (based on shortest pick up time)
-Dataset: Files can be added to datasets/. Datasets can be downloaded from https://www1.nyc.gov/site/tlc/about/tlc-trip-record-data.page. 
+Number of Agents, Default: 5000 <br>
+Resource Expiration Time, Default: 10 Mins <br>
+Assignment Period, Default: 30 Sec <br>
+Assignment Algorithm, Default: Fair (based on shortest pick up time) <br>
+Dataset: Files can be added to datasets/. Datasets can be downloaded from https://www1.nyc.gov/site/tlc/about/tlc-trip-record-data.page. <br>
+ 
