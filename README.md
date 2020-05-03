@@ -15,10 +15,20 @@ COMSET simulates crowdsourced taxicabs (called <i>agents</i>) searching for cust
 
 # Prerequisites
 
-COMSETsystem requires JAVA 8 or up.
+COMSET system requires JAVA 8 or up.
 
 When you download the project, Maven should be supported. In Intellij you can just follow the following link.
 
 https://www.jetbrains.com/help/idea/maven-support.html#maven_import_project_start
 
+# Configurable Params
 
+After downloading the project, you can change parameters on which you want to run the simulation. The <b>config.properties</b> file is present inside the etc/ folder. 
+
+List of Configurable params:
+
+Number of Agents, Default: 5000
+Resource Expiration Time, Default: 10 Mins
+Assignment Period, Default: 30 Sec
+Assignment Algorithm, Default: Fair (based on shortest pick up time)
+Dataset: Files can be added to datasets/. Datasets can be downloaded from https://www1.nyc.gov/site/tlc/about/tlc-trip-record-data.page. 
